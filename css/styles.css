@@ -1,0 +1,13 @@
+.navigation-container {
+    padding: 0
+}
+.navigation {
+    background: #3224A3;
+    color: #FFFFFF;
+}
+.navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-brand:hover {
+    color: #AAAAAA
+}
