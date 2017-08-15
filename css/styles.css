@@ -26,3 +26,16 @@ h5 {
 .without-border {
     border: 0;
 }
+/* participant page */
+.participant-row {
+    margin: 15px 0;
+}
+.participant-title {
+    margin: 10px 0;
+}
+.expand-participant {
+    cursor: pointer;
+}
+.participant-body {
+    font-size: 12px;
+}
