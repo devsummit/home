@@ -1,0 +1,55 @@
+.navigation {
+    background: #3224A3;
+    color: #FFFFFF;
+}
+.navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-brand:hover {
+    color: #000C6B
+}
+.full{
+    padding: 0
+}
+.icon-rounded {
+    height: 75px;
+    width: 75px;
+    margin: 15px 0;
+    border: 5px solid #CCC
+}
+.new-line {
+    margin-top: 30px;
+}
+h5 {
+    margin: 0;
+}
+.without-border {
+    border: 0;
+}
+/* participant page */
+.participant-row {
+    margin: 15px 0;
+}
+.participant-title {
+    margin: 10px 0;
+}
+.expand-participant {
+    cursor: pointer;
+}
+.participant-body {
+    font-size: 12px;
+}
+/* speaker */
+.custom-header-card {
+    padding: 10px 15px;
+    cursor: pointer
+}
+.title-div { 
+    padding: 15px;
+}
+.custom-card-body {
+    border-top: 1px solid #ddd
+}
+speaker-row {
+    margin: 15px;
+}
