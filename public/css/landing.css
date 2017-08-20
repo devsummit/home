@@ -3263,7 +3263,7 @@ header {
 
 #countdown {
     position: relative;
-    margin-top: 100px;
+    margin-top: 10px;
     display: block;
     overflow: hidden;
     text-align: center;
@@ -3272,6 +3272,7 @@ header {
 .days,
 .hours,
 .minutes {
+    font-family: 'Dosis', sans-serif;
     border-right: 1px solid #fff;
 }
 
