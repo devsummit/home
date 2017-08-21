@@ -14,11 +14,10 @@
 }
 
 .sub-heading {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 5em;
     line-height: 65%;
-    font-weight: normal;
-    font-weight: 300;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -3245,6 +3244,7 @@ header {
 .event-name,
 .event-details {
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .event-name {
