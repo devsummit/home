@@ -14,11 +14,10 @@
 }
 
 .sub-heading {
-    font-family: 'Signika', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 5em;
     line-height: 65%;
-    font-weight: normal;
-    font-weight: 300;
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -31,7 +30,7 @@
 }
 
 .img-logo {
-    height:40px;
+    height:100px;
     filter:none;
     -webkit-filter:none;
 }
@@ -3213,7 +3212,7 @@ select:focus,
 
 header {
     position: relative;
-    padding: 80px 0;
+    padding: 80px 0 40px;
     display: table;
     width: 100%;
     height: 100%;
@@ -3242,9 +3241,15 @@ header {
     vertical-align: middle;
 }
 
+.event-support,
 .event-name,
 .event-details {
     font-weight: 300;
+    text-transform: uppercase;
+}
+
+.event-support {
+    font-size: 1.2rem;
 }
 
 .event-name {
