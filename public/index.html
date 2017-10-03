@@ -179,23 +179,11 @@
           </div>
 
           <div class="row justify-content-center">
-            <div class="col-8 col-md-2">
-              <img src="/images/php-indonesia.png" alt="" class="img-fluid">
+            <div class="col-8 col-md-2" v-for="community in communities">
+              <a :href="community.website">
+                <img :src="community.photo" :alt="community.name" class="img-fluid">
+              </a>
             </div>
-            <div class="col-5 col-md-2">
-              <img src="http://sarccom.org/assets/logo-light.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-5 col-md-2">
-              <img src="/images/acci-logo-id-white.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-5 col-md-3">
-              <img
-                  src="https://scontent.fcgk6-1.fna.fbcdn.net/v/t39.2365-6/16685755_1355523501179205_4279653070415069184_n.png?oh=271ff23959638382c932b84433aee449&oe=5A5E322D"
-                  alt="" class="img-fluid">
-            </div>
-            <!--<div class="col-5 col-md-1">-->
-            <!--<img src="http://www.pondokprogrammer.com/images/Logo-vertical-white.png" alt="" class="img-fluid">-->
-            <!--</div>-->
           </div>
 
         </div>
@@ -341,6 +329,8 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://unpkg.com/vue@2.4.4/dist/vue.min.js"></script>
+<script src="https://unpkg.com/axios@0.16.2/dist/axios.min.js"></script>
 <script src="/js/smooth-scrolling.js"></script>
 <script src="/js/particles.js"></script>
 <script src="/js/app.js"></script>
