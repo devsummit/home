@@ -68,6 +68,32 @@ canvas {
   vertical-align: bottom;
 }
 
+// Speakers
+
+figure {
+  background: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0 1px 2px;
+
+  &:hover .avatar img {
+    -webkit-transform: scale(1.1) rotate(2deg);
+    -moz-transform: scale(1.1) rotate(2deg);
+    -ms-transform: scale(1.1) rotate(2deg);
+    -o-transform: scale(1.1) rotate(2deg);
+    transform: scale(1.1) rotate(2deg);
+  }
+
+  .avatar {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      transition: all 0.4s ease-out;
+    }
+  }
+}
+
 /* ---- particles.js container ---- */
 #particles-js {
   z-index: -9999;
@@ -80,3 +106,5 @@ canvas {
   background-size: 20%;
   background-position: 50% 50%;
 }
+
+/* ---- END particles.js container ---- */
