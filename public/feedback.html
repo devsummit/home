@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script>
+    (function(id) {
+        Userback = window.Userback || {};
+        Userback.access_token = '1385|1770|9xUEd6tjWPQEIjkRhLZklVI8vHVzPJNZgHDtO7NLWDpFWJwevw';
+        if (document.getElementById(id)) {return;}
+        var s = document.createElement('script');
+        s.id = id;
+        s.src = './js/v1.js';
+        var parent_node = document.head || document.body;
+        parent_node.appendChild(s);
+    })('userback-sdk');
+    </script>
+</body>
+
+<script type="text/javascript">
+    var ut;
+    document.addEventListener('DOMContentLoaded', function(event) {
+        loadButton()
+    }); 
+
+     loadButton = function(cb) {
+        ut = window.setInterval(function(){
+            ub = document.getElementsByClassName('userback-button');
+            if(ub.length > 0) {
+                Userback.open('form');
+                var con = document.getElementsByClassName('userback-controls')[0];
+                con.style.height = '80%'
+                con.style.width = '120%'
+                clearInterval(ut)  
+            }
+        }, 1000);
+     }
+</script>
+</html>
