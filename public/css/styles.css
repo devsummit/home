@@ -53,3 +53,17 @@ h5 {
 speaker-row {
     margin: 15px;
 }
+
+.thankyou {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.thankyou a {
+    color: #FFFFFF;
+}
