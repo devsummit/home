@@ -94,6 +94,16 @@ figure {
   }
 }
 
+.link-more {
+  background: white url('../images/speakers/molecule.png') no-repeat;
+  background-size: cover;
+
+  a {
+    text-decoration: none !important;
+    color: #3f3f3f !important;
+  }
+}
+
 /* ---- particles.js container ---- */
 #particles-js {
   z-index: -9999;
