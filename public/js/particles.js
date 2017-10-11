@@ -11,7 +11,7 @@ particlesJS("particles-js", {
     "opacity": {
       "value": 0.40246529723245905,
       "random": true,
-      "anim": {"enable": true, "speed": 0, "opacity_min": 0, "sync": false}
+      "anim": {"enable": true, "speed": 1, "opacity_min": 0, "sync": false}
     },
     "size": {"value": 2, "random": true, "anim": {"enable": false, "speed": 4, "size_min": 0.3, "sync": false}},
     "line_linked": {"enable": false, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1},
